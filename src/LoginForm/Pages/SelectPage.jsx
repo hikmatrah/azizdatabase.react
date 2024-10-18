@@ -1,0 +1,59 @@
+import React from "react";
+import Login from "../Images/login.jpg";
+import { Button } from "@material-ui/core";
+import { translatePage } from "../Functions/Functions";
+import { useNavigate } from "react-router-dom";
+
+const SelectPage = ({ inputProps }) => {
+  const navigate = useNavigate();
+
+  return (
+    <>
+      <form
+        className="selectPage"
+        style={{
+          transform: "translateY(-60rem)",
+          opacity: "0",
+          display: "none",
+        }}
+      >
+        <img
+          className="avatar"
+          src={Login}
+          alt="browser did't support this img"
+        />
+        <h2>Select Page</h2>
+
+        <Button
+          className="btn text-capitalize mb-4"
+          onClick={() => navigate("/afghanAndDealer/purchaseList")}
+        >
+          Afghan Land & Dealer
+        </Button>
+        <Button
+          className="btn text-capitalize mb-4"
+          onClick={() => navigate("/stockMarket/")}
+        >
+          Stock Market Shop
+        </Button>
+        <Button
+          className="btn text-capitalize mb-5"
+          onClick={() => navigate("/deliveryCargo/")}
+        >
+          Tek Delivery Service(Cargo)
+        </Button>
+
+        <h5
+          onClick={() => {
+            translatePage("loginForm", "X", "selectPage", "Y", "-60");
+            inputProps[2]();
+          }}
+        >
+          Back to Login
+        </h5>
+      </form>
+    </>
+  );
+};
+
+export default SelectPage;
