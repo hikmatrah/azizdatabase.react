@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/azizdatabase.react/static/css/main.79cc7cd3.css",
+    "main.js": "/azizdatabase.react/static/js/main.16efbe19.js",
+    "static/media/lock.gif": "/azizdatabase.react/static/media/lock.638d80de6ad6989f3180.gif",
+    "static/media/menuIco.gif": "/azizdatabase.react/static/media/menuIco.217e570393abcc593cd8.gif",
+    "static/media/laptop.gif": "/azizdatabase.react/static/media/laptop.04e1475381534cc22a66.gif",
+    "static/media/wave.png": "/azizdatabase.react/static/media/wave.9543f01c0702fbabc231.png",
+    "static/media/Poppins-Regular.ttf": "/azizdatabase.react/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/azizdatabase.react/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/login.jpg": "/azizdatabase.react/static/media/login.a734b6b9ebb02506ec87.jpg",
+    "index.html": "/azizdatabase.react/index.html",
+    "main.79cc7cd3.css.map": "/azizdatabase.react/static/css/main.79cc7cd3.css.map",
+    "main.16efbe19.js.map": "/azizdatabase.react/static/js/main.16efbe19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79cc7cd3.css",
+    "static/js/main.16efbe19.js"
+  ]
+}
